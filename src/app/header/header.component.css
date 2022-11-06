@@ -1,0 +1,11 @@
+.example-spacer {
+    flex: 1 1 auto;
+    margin: 0;
+  }
+  .nav-bar{
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+    margin-left: 10px;
+  }
