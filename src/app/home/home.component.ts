@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  mostrar = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  functionMostrar(){
+    this.mostrar = !this.mostrar;
+    console.log(this.mostrar);
+  }
 }
